@@ -5,6 +5,7 @@
 ** Combined with streetwriters/sqlite-better-trigram and nalgeon/sqlean translit
 */
 
+#include "sqlite3-arabic-phonetic-fuzzy-trigram.h"
 #include "sqlite3ext.h"
 
 SQLITE_EXTENSION_INIT1
