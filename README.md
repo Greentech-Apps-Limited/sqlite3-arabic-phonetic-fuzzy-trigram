@@ -71,12 +71,13 @@ CREATE VIRTUAL TABLE docs USING fts5(
 );
 ```
 
-| Option | Default | Description                                       |
-|--------|---------|---------------------------------------------------|
-| `remove_diacritics` | 1 | Remove Arabic diacritics (tashkeel)               |
-| `generate_trigrams` | 1 | Generate trigram tokens for fuzzy matching        |
-| `transliterate` | 1 | Generate transliterated tokens for Arabic text    |
-| `generate_phonetic` | 1 | Generate phonetic hash tokens for non Arabic Text |
+| Option | Default | Description                                        |
+|--------|---------|----------------------------------------------------|
+| `remove_diacritics` | 1       | Remove Arabic diacritics (tashkeel)                |
+| `generate_trigrams` | 1       | Generate trigram tokens for fuzzy matching         |
+| `transliterate` | 1       | Generate transliterated tokens for Arabic text     |
+| `generate_phonetic` | 1       | Generate phonetic hash tokens for non Arabic Text  |
+| `case_sensitive` | 0       | Generate tokens for non Arabic Text case sensitive |
 
 ## How It Works
 
